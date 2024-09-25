@@ -326,7 +326,17 @@ img {
 
 
 /* For medium devices */
-
+@media screen and (min-width: 576px){
+    .home__container{
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px){
+    .nav__menu{
+        width: 50%;
+    }
+}
 
 /* For large devices */
 
