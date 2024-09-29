@@ -296,6 +296,15 @@ img {
     row-gap: 6rem;
 }
 
+.news__card{
+    position: relative;
+    width: 200px;
+    background: var(--gradient-card);
+    padding: 9rem .75rem 1.5rem .75rem;
+    border: 2px solid var(--first-color-light);
+    border-radius: 1.5rem;
+}
+
 
 /*=============== SHOP ===============*/
 
