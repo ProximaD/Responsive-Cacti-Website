@@ -284,6 +284,17 @@ img {
     color: var(--first-color);
 }
 /*=============== NEWS ===============*/
+.news__data{
+    text-align: center;
+}
+
+.news__container{
+    row-gap: 7.5rem;
+}
+
+.news__content{
+    row-gap: 6rem;
+}
 
 
 /*=============== SHOP ===============*/
