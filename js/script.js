@@ -30,6 +30,15 @@ const linkAction = () =>{
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*=============== ADD BLUR HEADER ===============*/
+const blurHeader = () =>{
+    const header = document.getElementById('header')
+    //Add a class if the button offset is greater than 50 of the v
+    this.scrollY >= 50 ? header.classList.add('blur-header')
+                       : header.classList.remove('blur-header')
+}
+window.addEventListener('scroll', blurHeader)
+
 /*=============== GSAP ANIMATION ===============*/
 gsap.from('.home__container', 1.5, {opacity: 0, y: 150, delay: .1})
 gsap.from('.home__data', 1.8, {opacity: 0, x: 100, delay: .2})
