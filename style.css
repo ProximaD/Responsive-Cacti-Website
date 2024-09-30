@@ -314,6 +314,12 @@ img {
     transition: transform .4s;
 }
 
+.news__title{
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+
 /*=============== SHOP ===============*/
 
 
