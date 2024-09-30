@@ -395,6 +395,15 @@ img {
     .nav__menu{
         width: 50%;
     }
+
+    .news__content{
+        grid-template-columns: 2, 1fr;
+        column-gap: 4rem;
+    }
+
+    .news__card:nth-child(even){
+        transform: translateY(10rem);
+    }
 }
 
 /* For large devices */
