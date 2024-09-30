@@ -33,7 +33,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*=============== ADD BLUR HEADER ===============*/
 const blurHeader = () =>{
     const header = document.getElementById('header')
-    //Add a class if the button offset is greater than 50 of the v
+    //Add a class if the button offset is greater than 50 of the viewport
     this.scrollY >= 50 ? header.classList.add('blur-header')
                        : header.classList.remove('blur-header')
 }
