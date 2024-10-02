@@ -2,8 +2,8 @@
 
 # Responsive-Cacti-Website
 
-Responsive-Headphones-website with:
-1. Beautiful Cacti Website using HTML, CSS and JAVASCRIPT. 
+Responsive-Cacti-website with:
+1. Beautiful Cacti Website using HTML5, CSS3 and JAVASCRIPT. 
 2. Engaging animations transitions when scrolling. 
 4. Developed first with the Mobile First methodology, then for desktop. 
 5. Compatible with all mobile devices and with a beautiful and pleasant user interface.
