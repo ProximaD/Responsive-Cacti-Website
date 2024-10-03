@@ -461,4 +461,13 @@ img {
     .home__data{
         text-align: initial;
     }
+
+    .home__description{
+        margin-bottom:4.5rem;
+    }
+
+    .home__buttons{
+        justify-content: initial;
+        column-gap: 1.5rem;
+    }
 }
