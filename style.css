@@ -393,6 +393,10 @@ img {
     display: grid;
     cursor: pointer;
 }
+
+.shop__card:hover .shop__img{
+    transform: translateY(-.5rem);
+}
 /*=============== CARE ===============*/
 
 
