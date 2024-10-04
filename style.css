@@ -345,6 +345,19 @@ img {
 
 
 /*=============== SHOP ===============*/
+.shop__container{
+    padding-top: 6.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+}
+
+.shop__card{
+    position: relative;
+    background: var(--gradient-card);
+    padding: 5.75rem .75rem 1.25rem .75rem;
+    border: 2px solid var(--first-color);
+    border-radius: 1rem;
+}
 
 
 /*=============== CARE ===============*/
