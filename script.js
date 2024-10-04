@@ -34,3 +34,9 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 gsap.from('.home__container', 1.5, {opacity: 0, y: 150, delay: .1})
 gsap.from('.home__data', 1.8, {opacity: 0, x: 100, delay: .2})
 gsap.from('.new__container', 1.5, {opacity: 0, y: 150, delay: .3})
+gsap.from('.care__img', 1.5, {opacity: 0, y: -40, delay: .3})
+gsap.from('.care__item', 1.5, {opacity: 0, y: 150, delay: .3})
+
+
+
+
