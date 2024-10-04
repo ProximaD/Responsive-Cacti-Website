@@ -430,6 +430,11 @@ img {
         flex-direction: column;
         justify-content: center;
     }
+
+    .shop__container{
+        grid-template-columns: 160px;
+        justify-content: center;
+    }
 }
 
 
