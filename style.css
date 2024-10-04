@@ -375,7 +375,24 @@ img {
     margin-bottom: .5rem;
 }
 
+.shop__price{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
 
+.shop__button{
+    position: absolute;
+    right: .75rem;
+    bottom: .75rem;
+    outline: none;
+    border: none;
+    background-color: var(--white-color);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    display: grid;
+    cursor: pointer;
+}
 /*=============== CARE ===============*/
 
 
