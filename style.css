@@ -294,7 +294,8 @@ img {
 .button__link:hover{
     color: var(--first-color);
 }
-/*=============== NEWS ===============*/
+
+/*=============== NEW ===============*/
 .new__data{
     text-align: center;
 }
@@ -315,6 +316,7 @@ img {
     border: 2px solid var(--first-color-light);
     border-radius: 1.5rem;
 }
+
 .new__img{
     position: absolute;
     top: -4.5rem;
@@ -339,11 +341,9 @@ img {
     rotate: 5deg;   
 }
 
-.new__card:hover .news__img{
+.new__card:hover .new__img{
     transform: translateY(-.5rem);
 }
-
-
 /*=============== SHOP ===============*/
 .shop__container{
     padding-top: 6.5rem;
@@ -397,7 +397,38 @@ img {
 .shop__card:hover .shop__img{
     transform: translateY(-.5rem);
 }
+
 /*=============== CARE ===============*/
+.care__container{
+    padding-top: 2rem;
+    row-gap: 2rem;
+}
+
+
+.care__img{
+    width: 270px;
+    filter: drop-shadow(var(--shadow-img));
+    justify-self: center;
+}
+
+
+.care__list{
+    display: grid;
+    row-gap: 1rem;
+}
+
+
+.care__item{
+    display: flex;
+    column-gap: .5rem;
+    align-items: flex-start;
+}
+
+
+.care__item i{
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
 
 
 /*=============== CONTACT ===============*/
@@ -437,7 +468,6 @@ img {
     }
 }
 
-
 /* For medium devices */
 @media screen and (min-width: 576px){
     .home__container,
@@ -461,7 +491,7 @@ img {
         column-gap: 4rem;
     }
 
-    .new__card:nth-child(even){
+    .news__card:nth-child(even){
         transform: translateY(10rem);
     }
 
@@ -583,5 +613,5 @@ img {
         bottom: 2rem;
         font-size: 1.5rem;
     }
-    
+}
 }
