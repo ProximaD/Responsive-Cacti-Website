@@ -464,6 +464,10 @@ img {
     .new__card:nth-child(even){
         transform: translateY(10rem);
     }
+
+    .shop__container{
+        grid-template-columns: repeat(3, 160px);
+    }
 }
 
 /* For large devices */
