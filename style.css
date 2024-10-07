@@ -663,5 +663,10 @@ img {
     .care__list{
         row-gap: 1.5rem;
     }
+
+    .contact__container{
+        grid-template-columns: 280px 480px;
+        
+    }
 }
 }
