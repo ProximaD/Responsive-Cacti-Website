@@ -443,6 +443,11 @@ img {
     justify-self: center;
 }
 
+.contact__content{
+    display: grid;
+    row-gap: 2rem;
+    text-align: center;
+}
 /*=============== FOOTER ===============*/
 
 
