@@ -677,5 +677,9 @@ img {
         text-align: initial;
         row-gap: 2.5rem;
     }
+
+    .contact__social {
+        justify-content: initial;
+    }
 }
 }
