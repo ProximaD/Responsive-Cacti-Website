@@ -453,6 +453,13 @@ img {
     font-size: var(--h2-font-size);
     margin-bottom: .5rem;
 }
+
+.contact__social{
+    display: flex;
+    justify-content: center;
+    column-gap: .75rem;
+}
+
 /*=============== FOOTER ===============*/
 
 
