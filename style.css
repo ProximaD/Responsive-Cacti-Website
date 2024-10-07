@@ -666,6 +666,7 @@ img {
 
     .contact__container{
         grid-template-columns: 280px 480px;
+        justify-content: center;
         
     }
 }
