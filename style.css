@@ -671,5 +671,11 @@ img {
         column-gap: 8rem;
         padding-block: 3rem;
     }
+
+    .contact__content{
+        order: -1;
+        text-align: initial;
+        row-gap: 2.5rem;
+    }
 }
 }
