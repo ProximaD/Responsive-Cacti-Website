@@ -681,5 +681,9 @@ img {
     .contact__social {
         justify-content: initial;
     }
+
+    .contact__img{
+        width: 480px;
+    }
 }
 }
