@@ -476,6 +476,11 @@ img {
 .footer__container{
     row-gap: 4rem;
 }
+
+.footer__logo{
+    display: inline-flex;
+    align-items: center;
+}
 /*=============== SCROLL BAR ===============*/
 
 
