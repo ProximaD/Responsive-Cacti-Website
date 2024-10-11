@@ -480,6 +480,11 @@ img {
 .footer__logo{
     display: inline-flex;
     align-items: center;
+    column-gap: .25rem;
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: .75rem;
 }
 /*=============== SCROLL BAR ===============*/
 
