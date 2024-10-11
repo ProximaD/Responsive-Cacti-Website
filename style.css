@@ -469,7 +469,9 @@ img {
     font-style: normal;
 }
 /*=============== FOOTER ===============*/
-
+.footer{
+    padding-block: 4rem 2rem;
+}
 
 /*=============== SCROLL BAR ===============*/
 
