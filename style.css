@@ -493,6 +493,10 @@ img {
     font-weight: initial;
 }
 
+.footer__content{
+    grid-template-columns: repeat(2, max-content);
+    gap: 4rem 3rem;
+}
 
 /*=============== SCROLL BAR ===============*/
 
