@@ -528,6 +528,12 @@ img {
 .footer__social-link:hover{
     color: var(--first-color);
 }
+
+.footer__copy{
+    display: block;
+    margin-top: 6rem;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 
