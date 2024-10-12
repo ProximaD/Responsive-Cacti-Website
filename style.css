@@ -512,6 +512,11 @@ img {
     color: var(--text-color);
     transition: color .4s;
 }
+
+.footer__social{
+    display: flex;
+    column-gap: .75rem;
+}
     
 /*=============== SCROLL BAR ===============*/
 
