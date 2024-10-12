@@ -486,6 +486,14 @@ img {
     font-weight: var(--font-semi-bold);
     margin-bottom: .75rem;
 }
+
+.footer__logo i{
+    color: var(--first-color);
+    font-size: 1.5rem;
+    font-weight: initial;
+}
+
+
 /*=============== SCROLL BAR ===============*/
 
 
