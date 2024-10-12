@@ -502,6 +502,11 @@ img {
     font-size: var(--normal-font-size);
     margin-bottom: 1rem;
 }
+
+.footer__links{
+    display: grid;
+    row-gap: .75rem;
+}
 /*=============== SCROLL BAR ===============*/
 
 
