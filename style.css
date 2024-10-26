@@ -537,6 +537,11 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
+::webkit-scrollbar{
+    width: .6rem;
+    background-color: hsl(228, 4%, 15%);
+}
+
 
 
 /*=============== SCROLL UP ===============*/
