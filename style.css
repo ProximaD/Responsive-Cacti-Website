@@ -592,6 +592,10 @@ img {
         grid-template-columns: repeat(2, 160px);
         justify-content: center;
     }
+    
+    .footer__content{
+        grid-template-columns: repeat(3, max-content);
+    }
 }
 @media screen and (min-width: 768px){
     .nav__menu{
@@ -609,6 +613,10 @@ img {
 
     .shop__container{
         grid-template-columns: repeat(3, 160px);
+    }
+    .footer__content{
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
     }
 }
 
