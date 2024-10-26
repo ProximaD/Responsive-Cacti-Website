@@ -541,7 +541,10 @@ img {
     width: .6rem;
     background-color: hsl(228, 4%, 15%);
 }
-
+    
+::webkit-scrollbar-thumb{
+    background-color: hsl(228, 4%, 25%);
+}
 
 
 /*=============== SCROLL UP ===============*/
