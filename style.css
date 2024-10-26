@@ -532,6 +532,8 @@ img {
 .footer__copy{
     display: block;
     margin-top: 6rem;
+    text-align: center;
+    font-size: var(--small-font-size);
 }
 
 /*=============== SCROLL BAR ===============*/
