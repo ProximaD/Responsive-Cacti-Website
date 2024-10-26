@@ -577,6 +577,9 @@ img {
         grid-template-columns: 160px;
         justify-content: center;
     }
+    .footer__content{
+        grid-template-columns: max-content;
+    }
 }
 
 /* For medium devices */
