@@ -559,6 +559,8 @@ img {
     background-color: var(--container-color);
     color: var(--title-color);
     box-shadow: 0 12px 24px hsla(288, 48%, 4%, .5);
+    display: inline-flex;
+    padding: 6px;
 }
 
 /* Show Scroll Up */
