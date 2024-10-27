@@ -557,6 +557,8 @@ img {
     right: 1rem;
     bottom: 3rem;
     background-color: var(--container-color);
+    color: var(--title-color);
+    box-shadow: 0 12px 24px hsla(288, 48%, 4%, .5);
 }
 
 /* Show Scroll Up */
