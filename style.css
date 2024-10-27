@@ -552,7 +552,9 @@ img {
 
 
 /*=============== SCROLL UP ===============*/
-
+.scrollup{
+    position: fixed;
+}
 
 /* Show Scroll Up */
 
