@@ -554,6 +554,7 @@ img {
 /*=============== SCROLL UP ===============*/
 .scrollup{
     position: fixed;
+    right: 1rem;
 }
 
 /* Show Scroll Up */
