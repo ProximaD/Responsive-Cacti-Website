@@ -218,8 +218,6 @@ img {
     z-index: -1;
 }
 
-/* Active link */
-
 
 /*=============== HOME ===============*/
 .home__container{
@@ -565,8 +563,6 @@ img {
     z-index: var(--z-tooltip);
     transition: bottom .4s, transform .4s;
 }
-
-/* Show Scroll Up */
 
 
 /*=============== BREAKPOINTS ===============*/
